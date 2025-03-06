@@ -1,0 +1,57 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+h1 {
+    color: #007bff;
+    margin-top: 50px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 18px;
+    margin: 10px auto;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+/* Navigation Styling */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 10px auto;
+        display: block;
+    }
+}
